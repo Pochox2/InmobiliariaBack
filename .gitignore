@@ -1,0 +1,26 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# SQL Server local
+*.mdf
+*.ldf
+
+# Publish
+publish/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
