@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inmo.API", "InmobAPI\Inmo.API.csproj", "{9C3A7660-2FEF-49F3-8C4A-3E62B11F635B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inmo.API", "InmobAPI\Inmo.API.csproj", "{9C3A7660-2FEF-49F3-8C4A-3E62B11F635B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inmo.App", "Inmo.App\Inmo.App.csproj", "{D6E83723-FF9A-4299-B962-F0C7C3B638FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inmo.App", "Inmo.App\Inmo.App.csproj", "{D6E83723-FF9A-4299-B962-F0C7C3B638FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inmo.Infra", "Inmo.Infra\Inmo.Infra.csproj", "{2C8308FC-42D9-4F5D-B5C5-86C2E6FCD2D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inmo.Infra", "Inmo.Infra\Inmo.Infra.csproj", "{2C8308FC-42D9-4F5D-B5C5-86C2E6FCD2D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inmo.Dominio", "Inmo.Dominio\Inmo.Dominio.csproj", "{691776B0-DED8-45B0-8F19-22BEC7E470DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inmo.Dominio", "Inmo.Dominio\Inmo.Dominio.csproj", "{691776B0-DED8-45B0-8F19-22BEC7E470DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{E7A1E6FF-5F85-4827-8A42-2061430DFD67}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

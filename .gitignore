@@ -24,3 +24,7 @@ publish/
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+
+
+*.db
+inmobiliaria.db
